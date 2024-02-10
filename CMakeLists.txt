@@ -11,7 +11,7 @@ foreach(line ${lines})
     add_definitions(-D${key}="${value}")
 endforeach()
 
-find_package(CURL REQUIRED)
+add_subdirectory(extern/curl)
 
 add_executable(PasswordStealer src/main.cpp
         src/utils.cpp
@@ -20,4 +20,4 @@ add_executable(PasswordStealer src/main.cpp
         src/browser_data.h
 )
 
-target_link_libraries(PasswordStealer ${CURL_LIBRARIES})
+target_link_libraries(PasswordStealer CURL::libcurl)
