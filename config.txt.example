@@ -1,0 +1,5 @@
+MAIL_FROM=example@example.com
+MAIL_TO=example@example.com
+MAIL_URL=smtp://smtp-mail.example.com:587
+MAIL_USERNAME=example@example.com
+MAIL_PASSWORD=password
