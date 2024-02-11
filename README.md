@@ -12,6 +12,10 @@ I am not responsible for any of your actions!
 Before building, do not forget to create a config.txt file 
 using the [template](config.txt.example)
 
+Since the data from config.txt is sewn into the program, 
+each unique config creates a unique build and, 
+accordingly, a unique hash
+
 ### dependencies
 
 The only external dependency is curl
