@@ -22,3 +22,5 @@ After compile, you receive an executable file.
 It is completely ready to use.
 
 ## VirusTotal
+![image](https://github.com/JKearnsl/PasswordStealer/assets/76239707/5cb15591-d885-4aaa-9535-1a5ee06f1645)
+[Linux x64 release build](https://www.virustotal.com/gui/file/dea281662a49ad7601245fe169a30f145937f196015ecd32901ab244a6a640b9?nocache=1)
